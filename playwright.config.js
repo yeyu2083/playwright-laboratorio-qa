@@ -1,4 +1,3 @@
-const { devices } = require('@playwright/test');
 
 module.exports = {
   testDir: 'tests',
