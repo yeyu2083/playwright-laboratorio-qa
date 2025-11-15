@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>NotiLab — Demo móvil</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="hero">
+      <div class="container">
+        <h1 class="logo">NotiLab</h1>
+        <p class="tag">Demo móvil — notificaciones push y simulador</p>
+        <div class="controls">
+          <button id="enableBtn" class="btn primary">Permitir notificaciones</button>
+          <button id="simulateBtn" class="btn outline">Simular notificación</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="intro">
+        <h2>Tipos de notificación</h2>
+        <p class="muted">Prueba notificaciones <strong>automatizadas</strong>, <strong>personalizadas</strong> y <strong>urgentes</strong>.</p>
+      </section>
+
+      <section class="grid">
+        <article class="card">
+          <div class="icon">🤖</div>
+          <h3>Automatizada</h3>
+          <p>Notificaciones programadas o generadas por el sistema.</p>
+          <button class="btn small" data-type="automated">Enviar</button>
+        </article>
+
+        <article class="card">
+          <div class="icon">✉️</div>
+          <h3>Personalizada</h3>
+          <p>Contenido dinámico para cada usuario.</p>
+          <button class="btn small" data-type="personalized">Enviar</button>
+        </article>
+
+        <article class="card danger">
+          <div class="icon">⚠️</div>
+          <h3>Urgente</h3>
+          <p>Mensajes críticos que requieren atención inmediata.</p>
+          <button class="btn small" data-type="urgent">Enviar</button>
+        </article>
+      </section>
+
+      <section class="notes">
+        <h4>Validaciones a cubrir</h4>
+        <ul>
+          <li>Permisos: concedidos / denegados</li>
+          <li>App en primer plano / en segundo plano</li>
+          <li>Diferentes tipos: automatizada / personalizada / urgente</li>
+        </ul>
+      </section>
+    </main>
+
+    <div id="toast" class="toast" aria-live="polite"></div>
+
+    <footer class="footer">
+      <div class="container">Made with ♥ — Mobile demo • Colores accesibles y diseño móvil</div>
+    </footer>
+  </body>
+</html>
