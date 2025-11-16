@@ -11,6 +11,8 @@ test-results/
 traces/
 videos/
 screenshots/
+allure-results/
+allure-report/
 
 # Coverage and reports
 coverage/

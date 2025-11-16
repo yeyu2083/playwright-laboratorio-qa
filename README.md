@@ -1,4 +1,9 @@
- 🎭 Proyecto de Pruebas Automatizadas con Playwright
+⚠️ **Importante:** Los resultados de pruebas y reportes generados por Playwright/Allure **no deben** subirse al repositorio.
+
+- `allure-results/` y `allure-report/` están en `.gitignore` y no deben comitearse.
+- `test-results/`, `playwright-report/` y otros artefactos generados también están ignorados.
+
+🎭 Proyecto de Pruebas Automatizadas con Playwright
 
 ## 📋 Descripción
 
